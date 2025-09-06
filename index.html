@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reef | Listen Now</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: #fff;
+      text-align: center;
+      padding: 30px;
+    }
+    img.profile {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      border: 3px solid #fff;
+    }
+    h1 { margin-bottom: 10px; font-size: 26px; }
+    p { margin-bottom: 30px; font-size: 16px; color: #aaa; }
+    a {
+      display: block;
+      margin: 12px auto;
+      padding: 15px;
+      width: 80%;
+      max-width: 300px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+    a.spotify { background: #1DB954; color: #fff; }
+    a.youtube { background: #FF0000; color: #fff; }
+    a.apple { background: #FA2D48; color: #fff; }
+    a.audiomack { background: #FF8800; color: #fff; }
+    a.boomplay { background: #1A73E8; color: #fff; }
+    a.soundcloud { background: #FF5500; color: #fff; }
+    a.onerpm { background: #333; color: #fff; border: 1px solid #666; }
+    a:hover { transform: scale(1.05); }
+    .spotify-player {
+      margin: 20px auto;
+      max-width: 300px;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <img src="profile.jpg" alt="Reef Profile Picture" class="profile">
+  <h1>Reef</h1>
+  <p>Stream my music everywhere</p>
+
+  <div class="spotify-player">
+    <iframe style="border-radius:12px" 
+      src="https://open.spotify.com/embed/track/6hcRDYPyxh5Z2uw5TBnF9t?utm_source=generator" 
+      width="100%" height="152" frameborder="0" allowfullscreen="" 
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+      loading="lazy">
+    </iframe>
+  </div>
+
+  <!-- Priority links -->
+  <a href="https://open.spotify.com/artist/74PSN26ruw0dZiBhlwvz9y" class="spotify">Spotify</a>
+  <a href="https://youtube.com/@reefgofficial" class="youtube">YouTube</a>
+
+  <!-- Other platforms -->
+  <a href="https://music.apple.com/artist/1575519113" class="apple">Apple Music</a>
+  <a href="https://audiomack.com/reefg" class="audiomack">Audiomack</a>
+  <a href="https://www.boomplay.com/artists/45586141" class="boomplay">Boomplay</a>
+  <a href="https://soundcloud.com/reefg" class="soundcloud">SoundCloud</a>
+
+  <!-- OneRPM smartlink -->
+  <a href="https://onerpm.link/YOUR_RELEASE" class="onerpm">OneRPM Link</a>
+</body>
+</html>
